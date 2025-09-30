@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <Header />
-    <Compteur />
+    <HeroHeader />
   </div>
 </template>
 
 <script setup>
-import Compteur from "./components/Compteur.vue";
 import Header from "./components/Header.vue";
+import HeroHeader from "./components/Hero-header.vue";
 </script>
 
 <style></style>

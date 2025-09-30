@@ -356,7 +356,7 @@ export default {
 .desktop-menu .links {
   font-family: "Poppins", sans-serif;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   text-decoration: none;
   padding: 8px 15px;
