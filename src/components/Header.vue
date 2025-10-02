@@ -393,16 +393,16 @@ export default {
 
 .btn2 {
   background-color: white;
-  color: #47ba87;
+  color: #70163c;
 }
 
 .btn1:hover {
   background-color: white;
-  color: #47ba87;
+  color: #70163c;
 }
 
 .btn2:hover {
-  background-color: #47ba87;
+  background-color: #70163c;
   color: white;
 }
 
@@ -482,7 +482,7 @@ export default {
   left: 0;
   width: 320px;
   height: 100vh;
-  background: #47ba87;
+  background: #70163c;
   z-index: 2000;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
@@ -527,7 +527,7 @@ export default {
 
 .mobile-btn-primary {
   background: white;
-  color: #47ba87;
+  color: #70163c;
   border: none;
   padding: 12px 20px;
   border-radius: 25px;

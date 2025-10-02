@@ -34,7 +34,7 @@
 
 <style scoped>
 .hero-header {
-  background-color: #ff6b6b;
+  background-color: #4f0147;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #ff6b6b;
+  color: #4f0147;
   background-color: #fff;
   border: none;
   border-radius: 30px;
@@ -107,10 +107,17 @@
   text-decoration: none;
 }
 
+.btn:nth-child(1) {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
 .btn:hover {
-  background-color: #3da575;
+  background-color: #70163c;
+  color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(71, 186, 135, 0.3);
+  box-shadow: 0 4px 12px #70163b85;
 }
 
 .btn:active {
@@ -212,12 +219,14 @@
   }
 
   .text_hero h1 {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
+    line-height: 5.1rem;
     letter-spacing: -1px;
   }
 
   .text_hero p {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     max-width: 650px;
   }
 
