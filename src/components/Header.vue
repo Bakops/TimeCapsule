@@ -328,7 +328,7 @@ export default {
   align-items: center;
   padding: 0 30px;
   border-radius: 30px;
-  background-color: #47ba87;
+  background-color: #70163c;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
