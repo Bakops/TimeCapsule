@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Zooja";
+  src: url("./fonts/Zooja-Pro.woff2") format("woff2"),
+    url("./fonts/Zooja-Pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

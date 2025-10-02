@@ -3,9 +3,11 @@
     <div class="text_hero">
       <div class="text">
         <h1>
-          Et si tes souvenirs devenaient une
-          <span style="font-family: 'Zooja'">capsule</span>
-          digitale ?
+          Crée ta
+          <span style="font-family: 'Zooja'; font-weight: 300">
+            capsule digitale </span
+          ><br />
+          et parle au futur
         </h1>
         <p>
           Enferme tes souvenirs, tes mots et tes émotions dans une capsule
@@ -31,15 +33,6 @@
 <script setup></script>
 
 <style scoped>
-@font-face {
-  font-family: "Zooja";
-  src: url("/fonts/Zooja-Pro/Zooja-Pro.woff2") format("woff2"),
-    url("/fonts/Zooja-Pro/Zooja-Pro.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .hero-header {
   background-color: #ff6b6b;
   display: flex;
