@@ -1,6 +1,7 @@
 <template>
   <div class="hero-header">
     <div class="text_hero">
+      <Badge />
       <div class="text">
         <h1>
           Crée ta
@@ -25,12 +26,15 @@
       </div>
     </div>
     <div class="image_hero">
-      <img src="/public/image-hero.webp" alt="Hero Image" />
+      <ImageHero />
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Badge from "./Badge.vue";
+import ImageHero from "./Image-Hero.vue";
+</script>
 
 <style scoped>
 .hero-header {
@@ -126,13 +130,14 @@
 
 .image_hero {
   width: 100%;
-  max-width: 450px;
+  max-width: 600px;
   display: flex;
   justify-content: center;
 }
 
 .image_hero img {
   width: 100%;
+
   height: auto;
   border-radius: 1rem;
 }
@@ -193,8 +198,8 @@
 
   .image_hero {
     flex: 1;
-    max-width: 45%;
-    justify-content: flex-end;
+    max-width: 65%;
+    justify-content: center;
     align-self: center;
   }
 
@@ -211,7 +216,7 @@
 @media only screen and (min-width: 1280px) {
   .hero-header {
     gap: 4rem;
-    padding: 4rem 4rem;
+    padding: 4rem 6rem;
   }
 
   .text_hero {

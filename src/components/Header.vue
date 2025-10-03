@@ -378,7 +378,7 @@ export default {
 .btn1,
 .btn2 {
   border: 2px solid white;
-  padding: 8px 20px;
+  padding: 5px 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
