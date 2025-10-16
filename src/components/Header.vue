@@ -20,7 +20,7 @@
         <li><RouterLink to="/idees" class="links">Idées</RouterLink></li>
         <li><RouterLink to="/contact" class="links">Contact</RouterLink></li>
       </ul>
- 
+
       <div class="buttons desktop-buttons">
         <button class="btn1">Se connecter</button>
         <button class="btn2">S'inscrire</button>
@@ -100,7 +100,11 @@
               </svg>
             </RouterLink>
 
-            <RouterLink to="/guide" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink
+              to="/guide"
+              class="mobile-nav-link"
+              @click="closeMobileMenu"
+            >
               <svg
                 width="20"
                 height="20"
@@ -125,7 +129,8 @@
               </svg>
             </RouterLink>
 
-            <RouterLink to="/explorer"
+            <RouterLink
+              to="/explorer"
               class="mobile-nav-link"
               @click="closeMobileMenu"
             >
@@ -153,7 +158,11 @@
               </svg>
             </RouterLink>
 
-            <RouterLink to="/idees" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink
+              to="/idees"
+              class="mobile-nav-link"
+              @click="closeMobileMenu"
+            >
               <svg
                 width="20"
                 height="20"
@@ -178,7 +187,11 @@
               </svg>
             </RouterLink>
 
-            <RouterLink to="/contact" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink
+              to="/contact"
+              class="mobile-nav-link"
+              @click="closeMobileMenu"
+            >
               <svg
                 width="20"
                 height="20"
@@ -208,7 +221,11 @@
         <div class="mobile-nav-section">
           <div class="section-title">Mon compte</div>
           <div class="mobile-nav-links">
-            <RouterLink to="/profil" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink
+              to="/profil"
+              class="mobile-nav-link"
+              @click="closeMobileMenu"
+            >
               <svg
                 width="20"
                 height="20"
@@ -233,7 +250,8 @@
               </svg>
             </RouterLink>
 
-            <RouterLink to="/capsules"
+            <RouterLink
+              to="/capsules"
               class="mobile-nav-link"
               @click="closeMobileMenu"
             >

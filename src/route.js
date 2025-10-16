@@ -7,7 +7,7 @@ import Idees from "./pages/idees.vue";
 export const routes = [
   { path: "/", component: Home },
   { path: "/guide", component: Guide },
-  { path: "/idées", component: Idees },
+  { path: "/idees", component: Idees },
   { path: "/contact", component: Contact },
   { path: "/explorer", component: Explorer },
 ];
