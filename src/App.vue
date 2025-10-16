@@ -1,13 +1,11 @@
 <template>
   <div id="app">
-    <Header />
-    <HeroHeader />
+    <RouterView />
   </div>
 </template>
 
 <script setup>
-import Header from "./components/Header.vue";
-import HeroHeader from "./components/Hero-header.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <style></style>

@@ -115,4 +115,31 @@ export default {
     transform: scale(1) translateY(0);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .image_hero {
+    max-width: 500px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 640px) {
+  .image_hero {
+    max-width: 400px;
+  }
+}
+
+/* Petits mobiles */
+@media only screen and (max-width: 480px) {
+  .image_hero {
+    max-width: 320px;
+  }
+}
+
+/* Très petits écrans */
+@media only screen and (max-width: 360px) {
+  .image_hero {
+    max-width: 280px;
+  }
+}
 </style>

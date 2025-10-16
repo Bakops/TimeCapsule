@@ -14,13 +14,13 @@
       </div>
 
       <ul class="menu desktop-menu">
-        <li><a href="/" class="links">Accueil</a></li>
-        <li><a href="/guide" class="links">Guide</a></li>
-        <li><a href="/explorer" class="links">Explorer</a></li>
-        <li><a href="/idees" class="links">Idées</a></li>
-        <li><a href="/contact" class="links">Contact</a></li>
+        <li><RouterLink to="/" class="links">Accueil</RouterLink></li>
+        <li><RouterLink to="/guide" class="links">Guide</RouterLink></li>
+        <li><RouterLink to="/explorer" class="links">Explorer</RouterLink></li>
+        <li><RouterLink to="/idees" class="links">Idées</RouterLink></li>
+        <li><RouterLink to="/contact" class="links">Contact</RouterLink></li>
       </ul>
-
+ 
       <div class="buttons desktop-buttons">
         <button class="btn1">Se connecter</button>
         <button class="btn2">S'inscrire</button>
@@ -77,7 +77,7 @@
         <div class="mobile-nav-section">
           <div class="section-title">Navigation</div>
           <div class="mobile-nav-links">
-            <a href="/" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink to="/" class="mobile-nav-link" @click="closeMobileMenu">
               <svg
                 width="20"
                 height="20"
@@ -98,9 +98,9 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
 
-            <a href="/guide" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink to="/guide" class="mobile-nav-link" @click="closeMobileMenu">
               <svg
                 width="20"
                 height="20"
@@ -123,10 +123,9 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
 
-            <a
-              href="/explorer"
+            <RouterLink to="/explorer"
               class="mobile-nav-link"
               @click="closeMobileMenu"
             >
@@ -152,9 +151,9 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
 
-            <a href="/idees" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink to="/idees" class="mobile-nav-link" @click="closeMobileMenu">
               <svg
                 width="20"
                 height="20"
@@ -177,9 +176,9 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
 
-            <a href="/contact" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink to="/contact" class="mobile-nav-link" @click="closeMobileMenu">
               <svg
                 width="20"
                 height="20"
@@ -202,14 +201,14 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
           </div>
         </div>
 
         <div class="mobile-nav-section">
           <div class="section-title">Mon compte</div>
           <div class="mobile-nav-links">
-            <a href="/profil" class="mobile-nav-link" @click="closeMobileMenu">
+            <RouterLink to="/profil" class="mobile-nav-link" @click="closeMobileMenu">
               <svg
                 width="20"
                 height="20"
@@ -232,10 +231,9 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
 
-            <a
-              href="/capsules"
+            <RouterLink to="/capsules"
               class="mobile-nav-link"
               @click="closeMobileMenu"
             >
@@ -261,7 +259,7 @@
                   d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
                 />
               </svg>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
